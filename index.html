@@ -61,15 +61,34 @@
     <section class="formulario">
         <form>
             <!--<div class="form-group titulo-descripcion">-->
-                <div class="md-form">
-                    <input type="text" class="form-control form-control-lg titulo centrado" placeholder="Formulario sin titulo" id="titulo-abajo">
-                    <input type="text" class="form-control form-control-sm descripcion centrado" placeholder="Descripción del formulario"id="descripcion">
-                </div>
+            <div class="md-form">
+                <input type="text" class="form-control form-control-lg titulo centrado" placeholder="Formulario sin titulo" id="titulo-abajo">
+                <input type="text" class="form-control form-control-sm descripcion centrado" placeholder="Descripción del formulario" id="descripcion">
+            </div>
             <!--</div>-->
         </form>
         <div class="primer-pregunta centrado">
-            <!-- En el div de la primer pregunta va una card(tarjeta) o un panel-->
+            <div class="card text-center">
+                <div class="card-header">
+                    <!--<div class="md-form">
+                        <input type="text" class="form-control form-control-sm pregunta" placeholder="Pregunta">
+                    </div>-->
+                    <div class="md-form mb-4 blue-textarea active-blue-textarea pregunta">
+                        <textarea id="pregunta" class="md-textarea form-control" rows="1"></textarea>
+                        <label for="pregunta">Pregunta</label>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="card-footer text-muted">
+                    2 days ago
+                </div>
+            </div>
         </div>
+
     </section>
 
 
