@@ -24,3 +24,11 @@
 #titulo-abajo{
     font-size: 30px !important;
 }
+
+.primer-pregunta{
+    width: 800px !important;
+}
+
+.pregunta{
+    width: 300px;
+}
