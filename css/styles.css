@@ -1,34 +1,53 @@
-.formulario{
+.formulario {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 80px;
 }
 
-.titulo-descripcion{
+.titulo-descripcion {
     /*text-align: center;*/
-    
+
 }
 
-.centrado{
+.centrado {
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
     /*text-align: center !important;*/
 }
 
-.titulo, .descripcion{
-    width: 500px !important ; 
+.titulo,
+.descripcion {
+    width: 500px !important;
 }
 
-#titulo-abajo{
+#titulo-abajo {
     font-size: 30px !important;
 }
 
-.primer-pregunta{
+.primer-pregunta {
     width: 800px !important;
 }
 
-.pregunta{
+.pregunta, .opciones-tipo-pregunta, .tipo-pregunta{
     width: 300px;
 }
+
+.pregunta{
+    float: left;
+}
+
+.tipo-pregunta{
+    float: right;
+    margin-top: 25px;
+}
+
+textarea {
+    resize: none !important;
+    height: 1px;
+     !important;
+    max-height: 1px;
+     !important;
+}
+

@@ -68,14 +68,20 @@
             <!--</div>-->
         </form>
         <div class="primer-pregunta centrado">
-            <div class="card text-center">
+            <div class="card">
                 <div class="card-header">
-                    <!--<div class="md-form">
-                        <input type="text" class="form-control form-control-sm pregunta" placeholder="Pregunta">
-                    </div>-->
                     <div class="md-form mb-4 blue-textarea active-blue-textarea pregunta">
-                        <textarea id="pregunta" class="md-textarea form-control" rows="1"></textarea>
+                        <textarea id="pregunta" class="md-textarea form-control"></textarea>
                         <label for="pregunta">Pregunta</label>
+                    </div>
+                    <div class="tipo-pregunta">
+                        <select class="browser-default custom-select opciones-tipo-pregunta">
+                            <option value="respuesta-corta">Respuesta corta</option>
+                            <option value="parrafo">Párrafo</option>
+                            <option value="seleccion-multiple">Selección múltiple</option>
+                            <option value="seleccion-unica">Selección única</option>
+                            <option value="desplegable">Desplegable</option>
+                        </select>
                     </div>
                 </div>
                 <div class="card-body">
